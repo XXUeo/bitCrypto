@@ -8,3 +8,9 @@ $ ./configure <br>
 $ make<br>
 $ make install
 <br>
+bitcoin's byteswap and endian in /crypto is using https://github.com/google/protobuf.</br>
+However:
+Darwin features; we include a check for bswap_16 because if it is already defined, protobuf has
+// defined these macros for us already; if it isn't, we do it ourselves. In either case, we get the exact same
+// result regardless which path was taken.
+</br>
