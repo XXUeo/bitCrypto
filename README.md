@@ -7,7 +7,7 @@ $./autogen.sh<br>
 $ ./configure <br>
 $ make<br>
 $ make install
-<br>
+<br/>
 bitcoin's byteswap and endian in /crypto is using https://github.com/google/protobuf.</br>
 However:
 Darwin features; we include a check for bswap_16 because if it is already defined, protobuf has
