@@ -7,6 +7,8 @@ $./autogen.sh<br>
 $ ./configure <br>
 $ make<br>
 $ make install
+
+
 <br/>
 bitcoin's byteswap and endian in /crypto is using https://github.com/google/protobuf.</br>
 However:
