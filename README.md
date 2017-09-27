@@ -25,3 +25,6 @@ https://www.thesslstore.com/blog/difference-sha-1-sha-2-sha-256-hash-algorithms/
 https://en.wikipedia.org/wiki/SHA-2
 https://bitcointalk.org/index.php?topic=146191.0
 https://stackoverflow.com/questions/14356526/whats-the-difference-between-the-hash-algorithms-sha-2-and-sha-3
+
+### ripe-md160
+https://en.wikipedia.org/wiki/RIPEMD
