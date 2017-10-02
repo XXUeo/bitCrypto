@@ -28,3 +28,9 @@ https://stackoverflow.com/questions/14356526/whats-the-difference-between-the-ha
 
 ### ripe-md160
 https://en.wikipedia.org/wiki/RIPEMD
+
+### privatekey
+**
+ * secure_allocator is defined in allocators.h
+ * CPrivKey is a serialized private key, with all parameters included (279 bytes)
+  */
