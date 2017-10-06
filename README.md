@@ -34,3 +34,6 @@ https://en.wikipedia.org/wiki/RIPEMD
  * secure_allocator is defined in allocators.h
  * CPrivKey is a serialized private key, with all parameters included (279 bytes)
   */
+
+###generation of key
+wallet.cpp:126 GenerateNewKey -> key.cpp:126 MakeNewKey
