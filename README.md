@@ -35,5 +35,8 @@ https://en.wikipedia.org/wiki/RIPEMD
  * CPrivKey is a serialized private key, with all parameters included (279 bytes)
   */
 
-### generation of key
-wallet.cpp:126 GenerateNewKey -> key.cpp:126 MakeNewKey
+### generation of private key
+wallet.cpp:126 GenerateNewKey -> key.cpp:126 MakeNewKey ->keydata
+
+### fetch new private key
+key.cpp:134 CKey::GetPrivKey() ->  CPrivKey privkey; ->ec_privkey_export_der
